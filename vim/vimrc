@@ -11,6 +11,8 @@ filetype plugin indent on
 
 "Store personal xpt-templates in .vim
 set runtimepath+=~/.vim/xpt-personal
+" Do not use spaces inside auto-completed brackets
+let g:xptemplate_vars = "SParg="
 "let g:xptemplate_lib_filter = '/xpt-personal/'
 
 " Pretty default stuff
